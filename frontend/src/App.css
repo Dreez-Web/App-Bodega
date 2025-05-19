@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin: 0.2rem;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; /* Mantiene los elementos en los extremos */
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  gap: 0.5rem;
+}
+li:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.item {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los nombres y cargos */
+  gap: 1rem; /* Espacio entre nombre/cargo y los botones */
+  flex-grow: 1; /* Permite que el nombre/cargo ocupe el espacio restante */
+}
+
+.quantity {
+  margin-left: 1rem; /* Añade un poco de espacio a la izquierda de la cantidad */
+  font-weight: bold; /* Opcional: Resalta la cantidad */
+}
+
+.actions {
+  display: flex; /* Agrupa los botones en una fila */
+  gap: 0.5rem; /* Espacio entre los botones */
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: #c82333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #252525;
+}

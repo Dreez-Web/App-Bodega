@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Backend Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-error.log*
+
+# Base de Datos
+*.sql # Ignora los archivos SQL (dump de la base de datos)
+# Puedes descomentar la siguiente línea si tienes una carpeta específica para la base de datos y quieres ignorar su contenido
+# database/*
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# Otros temporales o de sistema
+tmp/
+temp/
+*.log
