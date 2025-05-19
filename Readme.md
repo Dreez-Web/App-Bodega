@@ -2,26 +2,26 @@
 
 ## Descripción
 
-Este sistema informático automatiza el proceso de entrega y recepción de herramientas y Elementos de Protección Personal (EPP) en el área logística de una empresa prestadora de servicios mineros. [cite: 255, 256, 257, 258, 259, 260, 333, 334, 335, 336] El sistema reemplaza el actual proceso manual basado en registros en papel, el cual genera pérdida de información, errores de trazabilidad, ineficiencias y un uso ineficiente del espacio físico. [cite: 269, 270, 271, 272]
+Este sistema informático automatiza el proceso de entrega y recepción de herramientas y Elementos de Protección Personal (EPP) en el área logística de una empresa prestadora de servicios mineros. El sistema reemplaza el actual proceso manual basado en registros en papel, el cual genera pérdida de información, errores de trazabilidad, ineficiencias y un uso ineficiente del espacio físico.
 
 ## Funcionalidades Clave
 
-- Registro automático de entregas y recepciones. [cite: 339]
-- Validación de trabajadores mediante RUT. [cite: 339]
-- Firma digital del trabajador. [cite: 339]
-- Generación de reportes (por trabajador, fecha, tipo de recurso). [cite: 340, 344]
-- Alertas de recursos no devueltos. [cite: 344]
-- Interfaz sencilla, intuitiva y responsive. [cite: 340]
-- Accesos diferenciados por roles. [cite: 340]
-- Administración de usuarios y recursos. [cite: 349]
+- Registro automático de entregas y recepciones.
+- Validación de trabajadores mediante RUT.
+- Firma digital del trabajador.
+- Generación de reportes (por trabajador, fecha, tipo de recurso).
+- Alertas de recursos no devueltos.
+- Interfaz sencilla, intuitiva y responsive.
+- Accesos diferenciados por roles.
+- Administración de usuarios y recursos.
 
 ## Estructura del Proyecto
 
 El proyecto sigue una arquitectura de tres capas:
 
-- **Frontend:** Desarrollado con React, proporciona la interfaz de usuario para la interacción con el sistema. [cite: 92, 93, 94] Se comunica con el backend a través de APIs RESTful. [cite: 94]
-- **Backend:** Desarrollado con Node.js y Express, contiene la lógica de negocio de la aplicación (gestión de usuarios, herramientas, solicitudes, etc.). [cite: 95, 96, 97]
-- **Base de Datos:** Utiliza MySQL para el almacenamiento persistente de los datos (trabajadores, herramientas, entregas). [cite: 98, 99, 100, 101, 102]
+- **Frontend:** Desarrollado con React, proporciona la interfaz de usuario para la interacción con el sistema. Se comunica con el backend a través de APIs RESTful.
+- **Backend:** Desarrollado con Node.js y Express, contiene la lógica de negocio de la aplicación (gestión de usuarios, herramientas, solicitudes, etc.).
+- **Base de Datos:** Utiliza MySQL para el almacenamiento persistente de los datos (trabajadores, herramientas, entregas).
 
 La estructura principal del proyecto es la siguiente:
 
@@ -47,7 +47,7 @@ backend/ # Código del backend (Node.js/Express)
 - **Frontend:** React
 - **Backend:** Node.js, Express
 - **Base de Datos:** MySQL
-- **Otras:** Git (control de versiones) [cite: 154, 155]
+- **Otras:** Git (control de versiones)
 
 ## Requisitos Previos
 
@@ -77,3 +77,11 @@ Asegúrate de tener instalado lo siguiente:
     cd frontend
     npm install
     ```
+
+## Autor
+
+Andres Martin Alpuis
+
+## Licencia
+
+Abierta para todo uso
